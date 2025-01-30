@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
  
-    QQmlApplicationEngine engine("../qml/main.qml");
+    QQmlApplicationEngine engine("../src/qml/tut.qml");
 
     // qmlRegisterType<CurrentTime>("org.example", 1, 0, "CurrentTime");
  
